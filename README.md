@@ -2,8 +2,8 @@
 
 ## LLAMA    
 ### How to run   
-   g++ -fopenmp -std=c++14 llama/main.cpp -o llama.out   
-   ./llama.out [input file path]   
+    g++ -fopenmp -std=c++14 llama/main.cpp -o llama.out   
+    ./llama.out [input file path]   
 
 ### Result(example)   
 init   
@@ -24,8 +24,8 @@ id: -1 | offset: 0 | fragment length: 0
 5 snapshots, each has 60%,70%,80%,90%,100% of original edges   
 
 ### How to run
-   g++ -fopenmp -std=c++14 chronos/main.cpp -o chronos.out   
-   ./chronos.out [input file path]   
+    g++ -fopenmp -std=c++14 chronos/main.cpp -o chronos.out   
+    ./chronos.out [input file path]   
 
 ### Result(example)   
 make vertex array   
